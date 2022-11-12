@@ -10,12 +10,13 @@
 }
 .main{
     /* background-color: yellow; */
-    width: 90vw;
+    /* width: 90vw; */
+    margin: auto;
 }
 .sidebar{
     background-color: rgb(199, 192, 192);
     /* width: 250px;  */
-    height: 100vh;
+    /* height: 100vh; */
     position: absolute;
     font-family: 'Fira Sans', sans-serif;
     transition: transform 0.3s ease-in;
@@ -49,12 +50,21 @@
 }
 .hello{
     font-size: 65px;
-    
+}
+
+@media (max-width:425px){
+    .hello{
+        font-size : 50px;
+    }
+    .name{
+        font-size: 45px;
+    }
 }
 .name{
     font-size: 50px;
     font-weight: bold;
     font-family: 'Fira Sans', sans-serif;
+   
 
 }
 .about{
